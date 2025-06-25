@@ -1,0 +1,36 @@
+:root{
+    --color-primery:#E3EFD3;
+    --color-banner:#BFC9CA;
+    --color-links-background:#AAB7B8;
+    --color-textcolor:#F1C40F;
+    --color-text-primery-color:#BFC9CA;
+    --color-text-hover:#AAB7B8;
+    --color-links-text:#AEC380;
+}
+.con1:hover{
+    transition:0.2 ease-in-out;
+    scale: 101%;
+    box-shadow: 0px 0px 20px #E3EFD3;
+    color: #F1C40F;
+}
+.con2:hover{
+    transition:  0.2s all;
+    /* size: 155%; */
+    scale: 101%;
+    color:#F1C40F;
+    box-shadow: 0px 0px 20px #dadcd7;
+
+}
+/* .con2 h1:hover{
+    border: 1px solid #AAB7B8;
+} */
+.con3:hover{
+    /* size: 155%; */
+    scale: 101%;
+    box-shadow: 0px 0px 20px #E3EFD3;
+    transition: ease-in 0.2s;
+    color:#F1C40F;
+}
+ol li a:hover{
+    color:var(--color-textcolor);
+}

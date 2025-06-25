@@ -1,0 +1,223 @@
+:root{
+    --color-primery:#E3EFD3;
+    --color-banner:#BFC9CA;
+    --color-links-background:#AAB7B8;
+    --color-textcolor:#F1C40F;
+    --color-text-primery-color:#BFC9CA;
+    --color-text-hover:#AAB7B8;
+    --color-links-text:#AEC380;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background-color: var(--color-primery);
+}
+.body{
+    /* display: flex; */
+    /* color: #; */
+
+}
+.body .banner{
+    height:150px;
+    width:fill;
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    background-color:#fff;
+}
+.banner .text{
+    display: flex;
+    flex-direction: column;
+}
+.text span{
+    font-size: 2.5rem;
+    font-weight:bolder;
+    color: #0460a2;
+}
+.text p{
+    color:#F1C40F;
+}
+.text .span{
+
+    font-size: medium;
+    /* color: ; */
+}
+.banner h1{
+    margin: 10px ;
+    color:#0460a2;
+    text-shadow: 0px 0px 1px #fff;
+
+}
+.banner img{
+    scale: 10px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    /* padding: 0 90px; */
+}
+.body .links,ol,li,a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    color: #0460a2;
+}
+.links{
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    background-color: #AAB7B8;
+}
+.links .searchbar{
+    margin: 1
+    0px 0px;
+}
+.links input {
+    padding: 10px 10px;
+}
+.links li input{
+    border: 3px soild black;
+    outline: 0;
+    border-radius: 2px;
+    text-align: center;
+    color: #0460a2;
+}
+ol li a{
+    text-transform: uppercase;
+    margin:0 2.8rem;
+    padding: 10px 30px;
+}
+.body2{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px ;
+    /* border: 2px solid #0460a2; */
+}
+.imageofcollege{
+    height:25rem;
+    width: 50%;
+    /* border:2px solid #0460a2; */
+    border-radius: 5px;
+    /* scale:80%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image:url(/assets/img/entrence.jpg); */
+    /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 5); */
+}
+.service{
+    background-color: var(--color-banner);
+    height: 250px;
+    width: fill;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.service .con1{
+    height: 175px;
+    width: 450px;
+    margin: 35px 30px;
+    background-color: #6B8f71;
+    
+}
+.con1 h1{
+    /* color:#F1C40F; */
+    text-align: center;
+    size: 12px;
+    margin: 10px 0;
+}
+
+.con1 p{
+    text-align: center;
+    color: var(--color-primery);
+    font-weight: bold;
+}
+.service .con2{
+    height: 175px;
+    width: 450px;
+    margin: 35px 30px;
+    background-color: #85c1e9;
+}
+.con2 h1{
+    text-align: center;
+    size: 12px;
+    margin: 10px 0;
+}
+.con2 p{
+    text-align: center;
+    color: #E3EFD3;
+    font-weight: bold;
+}
+.service .con3{
+    height: 175px;
+    width: 420px;
+    margin: 35px 30px;
+    background-color: var(--color-primery);
+}
+
+.con3 h1{
+    /* color: ; */
+    text-align: center;
+    size: 12px;
+    margin: 10px 0;
+}
+.con3 p{
+    text-align: center;
+    color: #2c5f72;
+    font-weight: bold;
+    padding: 8px 0;
+    align-items: center;
+}
+.about {
+    text-align: center;
+    height: 100px;
+    width: fill;
+    padding: 12px 12px ;
+    background-color: #85c1e9;
+}
+.about span{
+    padding:12px 0px;
+    font-weight: bolder;
+    color:#0460a2;
+}
+.about p{
+    color:white;
+    font-weight: bold;
+}
+.news h3 {
+    text-align: center;
+    background-color: #85c1e9;
+    padding: 10px 10px ;
+    color: #1a5970;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px black;
+
+}
+
+/* .notification{
+    height: 560px;
+    width: fill;
+    background-color: var(--color-banner);
+    display: flex;
+    flex-direction: row;
+}
+.notification .photop{
+    height: 120px ;
+    width: 20px ;
+    background-color: #0460a2;
+} */

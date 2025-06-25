@@ -1,0 +1,53 @@
+:root{
+    --color-primery:#E3EFD3;
+    --color-banner:#BFC9CA;
+    --color-links-background:#AAB7B8;
+    --color-textcolor:#F1C40F;
+    --color-text-primery-color:#BFC9CA;
+    --color-text-hover:#AAB7B8;
+    --color-links-text:#AEC380;
+
+}
+.notification{
+    height:130%;
+    width:100%;
+    background:url("/assets/img/entrence.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: bolder;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+.notification .photop{
+    margin: 20px 30px ;
+    height:160px ;
+    width:120px ;
+    justify-content: center;
+    align-items: center;
+    background-color: #0460a2;
+}
+.notification .quets{
+    color: #fff;
+    width: 100%;
+    height:140%;
+    display: flex;
+    margin: 0px 80px ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quets span{
+    /* margin: 20px 20px ; */
+}
+.notification .quets1{
+    color: #F1C40F;
+    margin: 0rem 100%;
+}
+.notification .read{
+    color: #F1C40F;
+    margin: 2rem 100%;
+}
